@@ -2,13 +2,17 @@
 
 
 
+.form-group
+{
+    background-color:#343434 ;
+
+}
 
 .note
 {
     text-align: center;
     font-size: x-large;
     font-family: sans-serif;
-    
     height: 80px;
     background: -webkit-linear-gradient(left, #0072ff, #8811c5);
     color:#fff;
@@ -20,8 +24,9 @@
 {
     text-align: center;
     padding: 5%;
-    border: 1px solid #ced4da;
+    border: 1px solid #343434;
     margin-bottom: 2%;
+    background-color:#343434 ;
 }
 .form-control{
     border-radius:1.5rem;
@@ -30,7 +35,7 @@
     height: 5%;
     text-align: center;
     font-size: large;
-
+   
 }
 .btnSubmit
 {
@@ -42,6 +47,6 @@
     padding: 1%;
     width: 20%;
     cursor: pointer;
-    background: #0062cc;
+    background: -webkit-linear-gradient(left, #0072ff, #8811c5);
     color: #fff;
 }
