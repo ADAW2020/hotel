@@ -8,14 +8,26 @@ body{
 
 
 .kanji{
-  width: 20%;  
-  height: 20%;
-  vertical-align: middle;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 10%;  
+height: 10%;
 object-fit: cover;
 border: 5px solid blue;
-align-content: center;
-
-
-    
+   
 }
 
+
+
+.top .reg-usuario{
+margin-top: 0%;
+margin-left: 90%;
+
+}
+
+.top .ingresar{
+    margin-top: 0%;
+    margin-left: 84%;
+
+}
