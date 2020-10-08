@@ -1,0 +1,21 @@
+
+
+body{
+
+    background-image: url(village-min.jpg);
+}
+
+
+
+.kanji{
+  width: 20%;  
+  height: 20%;
+  vertical-align: middle;
+object-fit: cover;
+border: 5px solid blue;
+align-content: center;
+
+
+    
+}
+
