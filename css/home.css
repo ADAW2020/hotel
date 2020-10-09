@@ -11,28 +11,16 @@ body{
 display: block;
 margin-left: auto;
 margin-right: auto;
-margin-top: -10%;
+
 width:200px;
 height: 210.5px;
-margin-bottom: 10%;
+margin-bottom: 5%;
   
 }
 
-
- .reg-usuario{
-margin-top: -15%;
-margin-left: 95%;
-
-
-
+.btn{
+    
 }
-
-.ingresar{
- margin-top: 0%;
- margin-left: 86%;
- float: left;
-}
-
 
 .dpicker-right{
     
