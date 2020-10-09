@@ -4,7 +4,13 @@ body{
     background-image: url(village-min.jpg);
 }
 
+.home{
 
+    margin-top: 2%;
+    margin-left: 99%;
+
+
+}
 .note
 {
     text-align: center;
@@ -22,26 +28,36 @@ body{
     padding: 3%;
     border: 0px solid #343434;
     margin-bottom: 0%;
+
     
 }
 .form-control{
+    margin-left: 35%;
     border-radius:1.5rem;
-    margin-top: 25px;
-    width: 22%;
-    height: 5%;
+    margin-top: 10px;
+    width: 30%;
+    height: 6%;
     text-align: center;
     font-size: large; 
+    border-color: black;
+    border-width: 5px;
+    
 }
 .btnSubmit
 {
+    margin-left: 39%;
     font-size: large;
-    margin-top: 25px;
+    font-weight: bolder;
+    margin-top: 5px;
     line-height: 15px;
-    border:none;
+    border-color:black;
+    border-width: 5px;
     border-radius:1.5rem;
     padding: 1%;
     width: 22%;
     cursor: pointer;
     background: -webkit-linear-gradient(left, #0072ff, #8811c5);
-    color: #fff;
+    color:black;
+   
+    
 }
