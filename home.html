@@ -50,35 +50,37 @@ $(document).ready(function(){
 
 <form method="POST">
 
-
+    <div>
     <div class="ingresar">         
         <button type="button" class="btn btn-dark">Ingresar</button>
         <a href="form_usuario.html" class="btn btn-dark active" role="button" aria-pressed="true">Registrase</a>       
     </div>
-
-        <div class="top" >
-            <img src="images/dbs.png" class="dbsuper"> 
-        </div>
-
-    <div>
-        <input type="text" id="depart" placeholder="Depart">
-        <input type="text" id="return" placeholder="Return">
-        <select id="habitacion">
-            <option>Tipo de habitación</option>
-            <option value="1">simple</option>
-            <option value="2">doble</option>
-            <option value="3">triple</option>
-        </select>
-        <input type="submit" class="btnSubmit" value="Buscar">
     </div>
 
 
+    
+    <div class="top" >
+        <img src="images/dbs.png" class="dbsuper"> 
+    </div>
 
+    <div class="dpicker-right">
+        <input type="text" class="form-control" id="depart" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="check-in">      
+    </div>
 
-
-
-
-   
+    <div class="dpicker-left">
+        <input type="text" class="form-control" id="return" aria-label="Large" aria-describedby="inputGroup-sizing-sm"placeholder="check-out">
+    </div>
+    
+    <div class="combo">
+        <select class="custom-select">
+            <option selected>Tipo de habitación</option>
+            <option value="1">Simple</option>
+            <option value="2">doble</option>
+            <option value="3">triple</option>
+          </select>
+    </div>
+        
+       
         
         <div class="social-menu">
             <ul>
@@ -87,11 +89,6 @@ $(document).ready(function(){
               <li><a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
             </ul>
           </div>
-       
-
-       
- 
-
 
 </form>
 

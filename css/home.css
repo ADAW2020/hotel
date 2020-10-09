@@ -11,39 +11,78 @@ body{
 display: block;
 margin-left: auto;
 margin-right: auto;
-margin-top: 1%;
+margin-top: -10%;
 width:200px;
 height: 210.5px;
+margin-bottom: 10%;
   
 }
 
 
+ .reg-usuario{
+margin-top: -15%;
+margin-left: 95%;
 
-.top .reg-usuario{
-margin-top: 0%;
-margin-left: 90%;
 
 
 }
 
 .ingresar{
- margin-top: 2%;
+ margin-top: 0%;
  margin-left: 86%;
-
+ float: left;
 }
+
+
+.dpicker-right{
+    
+width: 25%;
+float: left;
+padding: 10px;
+margin-left: 20%;
+border-width: 5px;
+border-color: #000000;
+}
+
+.dpicker-left{
+    
+    width: 25%;
+    float: left;
+    padding: 10px;
+    border-width: 5px;
+    border-color: #000000;
+ }
+
+
+.combo .custom-select{
+    margin-top: 10px;
+    text-align: center;
+    width: 20%;
+    height: 5%;
+    float: left;
+    padding: 5px;
+    font-size: medium;
+    border-width: 5px;
+    border-color: #000000;
+}
+
+
+
+
 
 .btnSubmit
 {
-    margin-left: 39%;
+    
+    margin-left: 44%;
     font-size: large;
     font-weight: bolder;
-    margin-top: 5px;
+    margin-top: 50px;
     line-height: 15px;
     border-color:black;
     border-width: 5px;
     border-radius:1.5rem;
     padding: 1%;
-    width: 22%;
+    width: 12%;
     cursor: pointer;
     background: -webkit-linear-gradient(left, #0072ff, #8811c5);
     color:black;
