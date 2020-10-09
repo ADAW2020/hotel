@@ -8,23 +8,69 @@
 
 <link rel="stylesheet" type="text/css" href="css/home.css"/>
 
+<!-- date picker links-->
+<script src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
 
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+
+<link href=" https://code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css" rel="stylesheet">
+<!-- date picker links-->
+
+<style>form {width: 70%; margin: 100px auto;}</style>
+<script>
+
+$(document).ready(function(){
+    let minDate = new Date();
+
+    $("#depart").datepicker({
+        showAnim: 'drop',
+        numberOfMonth: 1,
+        minDate: minDate, 
+        dateFormat: 'dd/mm/yy',
+        onClose: function (selectDate){
+            $('#return').datepicker("option", "minDate", selectDate)
+        }
+    });
+
+    $("#return").datepicker({
+        showAnim: 'drop',
+        numberOfMonth: 1,
+        minDate: minDate, 
+        dateFormat: 'dd/mm/yy',
+        onClose: function (selectDate){
+            $('#depart').datepicker("option", "minDate", selectDate)
+        }
+    });
+
+
+
+});
+
+ </script>   
 
 <form method="POST">
 
 
-    <div class="ingresar">
-                
+    <div class="ingresar">         
         <button type="button" class="btn btn-dark">Ingresar</button>
         <a href="form_usuario.html" class="btn btn-dark active" role="button" aria-pressed="true">Registrase</a>       
-        
     </div>
-    
+
         <div class="top" >
             <img src="images/dbs.png" class="dbsuper"> 
         </div>
 
-
+    <div>
+        <input type="text" id="depart" placeholder="Depart">
+        <input type="text" id="return" placeholder="Return">
+        <select id="habitacion">
+            <option>Tipo de habitación</option>
+            <option value="1">simple</option>
+            <option value="2">doble</option>
+            <option value="3">triple</option>
+        </select>
+        <input type="submit" class="btnSubmit" value="Buscar">
+    </div>
 
 
 

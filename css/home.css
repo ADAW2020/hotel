@@ -32,9 +32,23 @@ margin-left: 90%;
 
 }
 
-.calendario{
-margin-top: 5%;
-
+.btnSubmit
+{
+    margin-left: 39%;
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 5px;
+    line-height: 15px;
+    border-color:black;
+    border-width: 5px;
+    border-radius:1.5rem;
+    padding: 1%;
+    width: 22%;
+    cursor: pointer;
+    background: -webkit-linear-gradient(left, #0072ff, #8811c5);
+    color:black;
+   
+    
 }
 
 .bottom .insta{
