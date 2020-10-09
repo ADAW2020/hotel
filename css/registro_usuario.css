@@ -1,10 +1,17 @@
+
+body{
+
+    background-image: url(village-min.jpg);
+}
+
+
 .note
 {
     text-align: center;
     font-size: x-large;
     font-family: sans-serif;
     height: 80px;
-    background: -webkit-linear-gradient(left, #0072ff, #8811c5);
+   
     color:#fff;
     font-weight: bold;
     line-height: 80px;
@@ -15,7 +22,7 @@
     padding: 3%;
     border: 0px solid #343434;
     margin-bottom: 0%;
-    background-color:#343434 ;
+    
 }
 .form-control{
     border-radius:1.5rem;
