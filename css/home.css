@@ -55,8 +55,9 @@ border-color: #000000;
 }
 
 
+.btn{margin-top: 23%;}
 
-
+.btn.selected{}
 
 .btnSubmit
 {
