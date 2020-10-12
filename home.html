@@ -36,17 +36,17 @@
 <div class="general">
 
     <header>
-        <nav>
+        <nav class="botones-superiores">
             <a href="form_usuario.html" class="btn btn-dark active" role="button" aria-pressed="true">Ingresar</a>
             <a href="form_usuario.html" class="btn btn-dark active" role="button" aria-pressed="true">Registrase</a>
-            <a href="form_usuario.html" class="btn btn-dark active" role="button" aria-pressed="true">Consultas</a>
+            <a href="form_usuario.html" class="btn btn-dark consultas" role="button" aria-pressed="true">Consultas</a>
         </nav>
         <div class="top">
             <img src="images/dbs.png" class="dbsuper">
         </div>
     </header>
 
-    <form method="POST" action="">
+    <form method="POST" action="seleccion.java">
         <div class="dpicker-right">
             <input type="text" class="form-control" name="pickerR" id="depart" aria-label="Large"
                 aria-describedby="inputGroup-sizing-sm" placeholder="check-in">
@@ -57,13 +57,10 @@
                 aria-describedby="inputGroup-sizing-sm" placeholder="check-out">
         </div>
 
-        <div class="combo">
-            <select class="custom-select" name="select">
-                <option selected>Tipo de habitación</option>
-                <option value="1">Simple</option>
-                <option value="2">doble</option>
-                <option value="3">triple</option>
-            </select>
+       
+       
+        <div class="buscar">
+            <input type ="submit" class="btn btn-dark buscar" aria-pressed="true" value="Buscar">
         </div>
     </form>
 
